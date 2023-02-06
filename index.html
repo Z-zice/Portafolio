@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="Vector.png">
+            <textarea type="text" id="input"  class="input-texto" placeholder="Ingrese el texto aquí" rows="15" cols="30" ></textarea>
+
+
+        </header>
+        <main>
+            <div  class="rectangulo">
+                <img id="imagen-muñeco" class="muñeco " src="Muñeco.png">
+                <p id="mensaje-rectangulo1" class="mensaje-rectangulo-1 ">Ningún mensaje fue encontrado</p>
+                <p id="mensaje-rectangulo2" class="mensaje-rectangulo-2 ">Ingrese el texto que desees encriptar o desencriptar</p>
+
+            <div class="contenedor-copiar">
+                <button onclick = "copiarTexto()" id="boton-copiar" type="button" class="btn-copiar">Copiar</button>
+    
+            </div>
+            <div class="mensaje-encriptado">
+                <textarea type="text" id="caja-aux" class="contenedor-aux" rows="15" cols="30" ></textarea>
+
+            </div>
+
+
+
+
+            </div>
+            <div class="mensaje-admirancion">
+                <img class="logo-admiracion" src="Logo-admiracion.png">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            
+            <div class="botones-pos">
+                <button class="boton-encriptar" type="button">Encriptar</button>
+                <button class="boton-desencriptar" type="button" >Desencriptar</button>
+            </div>
+
+            
+
+
+
+        </main>
+
+        <script src="encriptador.js"></script>
+       
+            
+        
+         
+
+
+    </body>
+
+    
+
+    
+    
+
+
+
+    
+
+
+
+</html>
